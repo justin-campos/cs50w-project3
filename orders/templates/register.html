@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{%block title%}
+
+Registro
+
+{% endblock%}
+
+{% block main%}
+
+<div class="login-box">
+    <div class="caja" id="register" align="center">
+        <form class="form" method="post">
+
+            <img class="icon" src="static/imagenes/icono.png" />
+            <div class="dos-columnas">
+            {% csrf_token %}
+
+            {{ form.as_p }}
+        </div>
+            <div class="form-group" align="center">
+                <button class="submit" type="submit">Registar</button>
+            </div>
+
+        </form>
+
+        <div id="formFooter">
+            <a href="/login">Inicia sesion</a>
+        </div>
+    </div>
+</div>
+
+{% endblock%}

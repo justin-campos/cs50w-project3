@@ -1,0 +1,174 @@
+/* Pagina de login*/
+
+.navbar{
+    background: #D4403A;
+}
+
+.icon{
+    width: 10rem;
+    height: 10rem;
+}
+
+.anuncios{
+  background-color: #2C3238;
+}
+
+.imagen{
+    width: 20rem;
+    height: 15rem;
+}
+
+
+.caja{
+  margin-top: 10%;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  background-color: #FFFFFF;
+  label, a{
+    font-family: serif;
+    font-size: 25px;
+    text-align: center;
+  }
+}
+
+#login {
+    width: 650px;
+    height: 600px;
+    margin: 7em auto;
+}
+
+#register {
+    width: 1000px;
+    height: 900px;
+    margin: 7em auto;
+}
+
+.dos-columnas {
+  margin-top: 5%;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 5%;
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+}
+
+//Form Elements/
+form {
+    margin: 0;
+    padding: 40px;
+    font-size: 1rem;
+}
+input {
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #D3D8DC;
+  outline: 0;
+  background: #fff;
+  padding: 20px 0 4px;
+  margin: 0 0 20px;
+  color: #777B7E;
+}
+input:focus {
+  border-color: #96639b;
+  color: #2C3238;
+}
+textarea {
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #D3D8DC;
+  outline: 0;
+  background: #fff;
+  padding: 20px 0 4px;
+  margin: 0 0 20px;
+  color: #777B7E;
+}
+textarea:focus {
+  border-color: #7A9D96;
+  color: #2C3238;
+}
+button.submit {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  background: #D4403A;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  opacity: .8;
+  transition: .35s linear;
+}
+
+button.submit:hover {
+  opacity: 0.5;
+}
+
+.submit {
+  width: 30%;
+  text-align: center;
+  background: #D4403A;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  opacity: .8;
+  transition: .35s linear;
+  margin-bottom: 0px;
+  padding-top: 10px;
+}
+
+.submit:hover, .submit2:hover{
+  opacity: 1;
+  color: white
+}
+
+.submit2 {
+  color: #fff;
+  background: #3b0a52;
+  border-radius: 4px;
+  opacity: .8;
+  transition: .35s linear;
+  border: 0;
+  border-radius: 4px;
+}
+
+#formFooter {
+  background-color: #f6f6f6;
+  border-top: 1px solid #dce8f1;
+  padding: 25px;
+  text-align: center;
+  -webkit-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+
+  a{
+    color:#350b49
+  }
+}
+
+.card-img-top {
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}
+
+section{
+  text-align: center;
+}
+
+#banner{
+    background: url("/static/imagenes/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+}
+
+.container-fluid{
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+ul{
+  align-items: center;
+}

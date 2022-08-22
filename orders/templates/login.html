@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{%block title%}
+
+Login
+
+{% endblock%}
+
+{% block main%}
+
+
+<div class="login-box">
+    <div class="caja" id="login" align="center">
+        <form class="form" method="post">
+            
+            <img class="icon" src="https://images.vexels.com/media/users/3/131779/isolated/preview/3d4929d289ad98ad71637d5c257d2f08-logo-de-pizza-1.png"/>
+
+            {% csrf_token %}
+
+            {{ form.as_p }}
+
+            <div class="form-group" align="center">
+                <button class="submit" type="submit">Iniciar sesion</button>
+            </div>
+
+        </form>
+        <div id="formFooter">
+            <a href="/register">¿No tienes una cuenta?</a>
+        </div>
+    </div>
+</div> 
+{% endblock%}
